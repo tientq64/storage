@@ -1,0 +1,556 @@
+env version = 1.0
+env debug = 1
+env concat = none
+
+var botName = Tiến
+var botGender = nam
+var botBirthYear = 1996
+var botBirthMonth = 10
+var botBirthDay = 30
+var botCountry = Việt Nam
+var botCity = Hà Nội
+
+var isThuong =
+
+syn admin = assmin|ad
+syn ahbp = anh hùng bàn phím
+syn alo = a lô|aloo|aluu|alô|alu|lô|lu
+syn alô = a lô|aloo|aluu|alo|alu|lô|lu
+syn anh = a
+syn anh = ảnh
+syn anh em = ae
+syn anh hùng bàn phím = ahbp
+syn anh yêu = aiu
+syn anh yêu em = aye
+syn atsm = ảo tưởng sức mạnh
+syn avatar = ảnh đại diện|hình đại diện|avata|avt
+syn bao giờ = baoh|bh
+syn bao nhiêu = bao nhiu|bnhiu|nhiêu|nhiu|mấy|bn|mí
+syn biết = bít|bit|bik|bt
+syn buồn = bùn|sad
+syn bây giờ = bâyh|bayh|bh
+syn bình thường = bthg|bth
+syn bó tay = botay
+syn bạn = bn|b
+syn bạn bè = bb
+syn bảo vệ = bvệ|bv
+syn bấm = nhấn|ấn
+syn bẩn = bửn
+syn bỏ mẹ = bmẹ
+syn bố = papa|cha|ba
+syn chia tay = ctay|ct
+syn chim = tờ rim|họa mi|chym|trym|cu|ku
+syn cho = choa|cko
+syn chuyện = chiện|chịn
+syn chuẩn bị = cbị|cb
+syn chào = xin chào|chao xìn|hê nhô|hé lu|hé lô|hé lo|hê lô|hê lu|hê lo|hello|helo|nhô|hi
+syn chó = cờ hó|chóa
+syn chúng mày = cm
+syn chúng nó = cnó|cno
+syn chơi = chs
+syn chả = chẳng|chẳg|chạ
+syn chảnh = choảnh
+syn chẳng = chẳg|chả|chạ
+syn chết = chớt|chít|cht
+syn chết mẹ = chetme
+syn chị = chụy|chj|cj|c
+syn chị em = ce
+syn chịch = xoạc|nện
+syn chồng = ck|ch
+syn chỗ = chổ
+syn chụp = chộp
+syn chứ = chớ
+syn clgt = cái lồn gì thế|cái lon gì thế|cái lồng gì thế
+syn cmn = con mẹ nó
+syn cmnr = con mẹ nó rồi
+syn coi = coy
+syn comment = cmt
+syn con mẹ nó = cmn
+syn con mẹ nó rồi = cmnr
+syn cuộc sống = cs
+syn cà phê = coffee|cafe
+syn cái gì = nà ní|whatt|what|nani|cgì|cgi|cg|cj
+syn cái lồn gì thế = clgt
+syn cái đéo gì = cđg|cdg
+syn có = cóa|yes|yep|yup
+syn công chúa = công túa
+syn công ty = cty
+syn cũng = củng|củg|cũg|cũm|cx
+syn cơ = ker|cer
+syn cười = cừi|cừ
+syn cảm ơn = then kiu|cảm ưn|cám ơn|cám ưn|camon|mơn|thanks|thank|tks
+syn cậu = chụy|bạn|mày|mầy|bây|anh|chị|chế|m|a
+syn cặc = cẹc|kẹc
+syn cục cứt = cc
+syn cứt = shit|mứt|cức
+syn cứu = cíu|kíu
+syn dùng = sử dụng|xài
+syn dễ thương = cute|kute|dth|dt
+syn dọa = hù
+syn em = e
+syn em = ẻm
+syn em yêu = honey|eiu
+syn em yêu anh = eya
+syn facebook = face|fb
+syn free = miễn phí
+syn gato = ghen ăn tức ở
+syn ghen ăn tức ở = gato
+syn ghê = ghia|ghee|gê
+syn gia đình = gđ
+syn giới thiệu = gth|gt
+syn giờ = h
+syn google = gu gồ|gg
+syn gái = con gái|đàn bà|phụ nữ|cgái|kgái|girl|nữ|cái
+syn gì = gieè|chi|giề|giè|zề|zè|zì|dì|rì|jj|j
+syn gọi = kêu|kiu
+syn gọi video = call video|facetime|ft
+syn gớm = gúm
+syn haha = ha ha|hahaha|hiha|kaka|kkk|kk
+syn hay = ha
+syn hihi = hi hi|hì hì|hí hí|hj hj|hìhì|híhí|hjhj|kiki|hì|hí
+syn hiểu = hỉu
+syn hmm = hừm|hm
+syn hoài = quài
+syn hoàng thượng = quàng thượng|hoàng thược
+syn hoàng tử = htử
+syn hài = haizz|haiz|hazz
+syn hàn quốc = hàn|hq
+syn hôm nay = hnay|nay
+syn hôm nào = hnào|nào
+syn hôm qua = hqua|qua
+syn hôn = hun
+syn hạnh phúc = hp
+syn hả = hửm|hử|hã|há|hở
+syn hết = hớt|hít|ht
+syn học = hk
+syn học sinh = hsinh|hs
+syn hỏng = hư
+syn hừm = hmm|hm
+syn khi nào = knào|nào
+syn khác biệt = khác bọt
+syn không = hông|hôgg|hogg|hôg|hog|hôn|hem|hăm|hơm|hum|noo|kô|ko|nô|no|k
+syn không biết = kbít|kbit|kb
+syn không có gì = kcj
+syn không gian = kgian
+syn không phải = not|kp
+syn khùng = khùm|khùg
+syn kiếm = kím
+syn kiểm tra = ktra
+syn kêu = kiu
+syn kết bạn = kbạn|kb
+syn laptop = lap
+syn liên quan = lqan|lq
+syn luôn = loăn|lun
+syn làm = lm
+syn làm gì = lmj|lj
+syn làm quen = lquen|lqen|lwen|lw
+syn làm sao = lsao|sao|lms|ls
+syn lúc nào = lnào|lnao
+syn lắm = nhắm|lém
+syn lồn = loằn|lozz|loz
+syn lớp = lp
+syn lỡ = lở
+syn m = chụy|bạn|mày|mầy|bây|anh|chị|cậu|a
+syn miễn phí = free
+syn muốn = mún
+syn mà = mừ|mờ|mể
+syn mách = méc|mét
+syn mình = mik|mk
+syn mất dạy = mắc dại|mắt dạy|mất dại|matday|matdai
+syn mấy = bao nhiêu|bao nhiu|bnhiu|nhiêu|nhiu|bn|mí
+syn mật khẩu = mkhẩu|pass|mk
+syn mắc = mắt
+syn mặt = mẹt
+syn mẹ = mama|mọe|mịa|uma|má|mé|mạ
+syn mọi người = mng|mn
+syn mối quan hệ = mqhệ|mqh
+syn mới = mứi|ms|mí
+syn nam = con trai|đàn ông|ctrai|ktrai|trai|zai|đực|boy
+syn nghìn = ngàn
+syn ngon = ngoăn|ngol|nhon
+syn người = ngừ|ng
+syn người ta = ngta|nta
+syn người yêu = bạn trai|bạn zai|bạn gái|btrai|bgái|crush|gấu|ghệ|bồ|ny|cr
+syn người yêu cũ = nyc
+syn người yêu mới = nym
+syn ngủ = ngụ|nhủ
+syn ngủ ngon = nn
+syn nha = nghen|ngen|nhaa|nhenn|nhen|nhoa|nhee|henn|hen|hén|nhá|nhé|nhe|nhớ|na
+syn nhanh = lẹ
+syn nhiêu = nhiu
+syn nhiều = nhìu|nhều
+syn nhé = nhenn|nhen|nhoa|nhóe|hen|hén|nhá|nha|nhe|nhớ
+syn như thế nào = như nào|ntn
+syn nhầm = lộn
+syn bệnh = bịnh
+syn nhật bản = nhật
+syn nhắn tin = nt|ib
+syn nhỉ = nhở|nhờ|nhể|nhề
+syn nick = tài khoản|acc|tk
+syn nào = lào|nèo
+syn này = nek|nak|nầy|nè|nà|nì
+syn nè = này|nek|nak|nầy|nà|nì
+syn nói = ns
+syn nói chuyện = chat|nch|nc
+syn nước = nc
+syn nỗi = nổi
+syn nữ = con gái|đàn bà|phụ nữ|cgái|kgái|girl|gái|cái
+syn nữa = nx
+syn offline = off
+syn ok = okay|okie|oki|okê|okee|oke
+syn online = onl
+syn phim = film|fim
+syn photoshop = pts
+syn phải = pải|fải
+syn phải không = phỏng
+syn quan hệ = qhệ
+syn quan tâm = qtâm|qt
+syn quay lại = ql
+syn quen = wen|qen
+syn quá = qué|quớ|tóa|wá|wé|wớ|cá
+syn quần què = quần|qq
+syn rơi = rớt
+syn rảnh = rãnh
+syn rồi = roài|roii|zồi|rùi|ròi|ròy|roy|dồi|dòi|oy|rr|r
+syn sao = seo|s
+syn sinh nhật = sn
+syn sinh nhật vui vẻ = snvv|hpbd
+syn sinh năm = sn
+syn sinh viên = sv
+syn sml = sấp mặt lồn
+syn snvv = sinh nhật vui vẻ|hpbd
+syn sài gòn = sg
+syn súc vật = súc zật|súk zật
+syn sđt = số điện thoại|sdt
+syn sấp mặt = sm
+syn sấp mặt lồn = sml
+syn số điện thoại = sđt|sdt
+syn sử dụng = dùng|xài
+syn t = mình|tôi|tao|tui|em|mị|tớ|e
+syn thành phố = tp
+syn thích = chích|thík|thik|thic|like|thk
+syn thôi = thuii|thoai|thoii|thoyy|thoi|thui|thoy|thou|thâu|hoyy|hoy
+syn thú vị = thú zị|thú dị
+syn thương = thw
+syn thường = thg
+syn thật = thiệt|thặc
+syn thằng = thg|thk|th|tk
+syn thằng mặt lồn = tml
+syn thế = thía|thee|tke|tek
+syn thế nào = tn
+syn thế này = tnày
+syn thế đéo nào = tđn
+syn thời gian = tgian
+syn tim = tym
+syn tin nhắn = tn
+syn tivi = ti vi|tv
+syn tiêu = tiu
+syn tiếp = típ
+syn tml = thằng mặt lồn
+syn tphcm = hồ chí minh|hcm
+syn trai = con trai|đàn ông|ctrai|ktrai|nam|zai|đực|boy
+syn trong = chong
+syn trung quốc = tàu khựa|trung|tàu|khựa|tq
+syn trước = trc
+syn trường = trg
+syn trả lời = tl|rep
+syn trời = trùi|giời|tr
+syn trời ơi = trội ôi|trùi ui|trời má|trời đụ|troioi|omg
+syn tuyệt = toẹt
+syn tuổi = tủi
+syn tài khoản = nick|acc|tk
+syn tán = thả thính|cưa|cua
+syn tình cảm = tình củm|tc
+syn tình yêu = ty
+syn tí = xíu|tý
+syn tại sao = tsao|why|ts
+syn tạm biệt = bái bai|bai bai|pái pai|pai pai|bye bye|good bye|goodbye|baibai|byebye|baii|bai|paii|pai|bye|pp
+syn tớ = mình|tôi|tao|tui|em|mị|t|e
+syn ui = uii|ôi
+syn vc = vãi cứt
+syn việt nam = việt|vn
+syn vl = vãi loằn|vãi lồn|vãi lol|vãi lone|vê lờ|vailon|vler|vlìn|vcl|vkl
+syn vui = zui
+syn vui vẻ = zui zẻ|bui bẻ|vv
+syn vào = vô|zô|dô
+syn vâng = zâng|vg|yes|yep|yup
+syn vãi = vại|vỡi
+syn vãi chưởng = vch
+syn vãi cứt = vc
+syn vô = zô|dô
+syn vô duyên = zô duyên|zô ziên
+syn vú = dú|zú
+syn vấn đề = vđề
+syn vậy = zậy|zọ|zợ|zị|dị|v|z
+syn về = zìa
+syn vớ vẩn = vớ vỉn
+syn với = mới|vs|zs
+syn vỡ = bể
+syn vợ = vk
+syn wow = woa
+syn xin = chin
+syn xin lỗi = sorry|sory|sori|sozi|sr|xl
+syn xinh = chinh|xink|xjnk|xênh|xih|xưn|xin
+syn yêu = iêu|iu|y
+syn yếu sinh lý = ysl
+syn à = ahh|ag|ah|ak
+syn á = ă
+syn ê = hey|hêy|eh|êy|eee|ee
+syn ô tô = ôtô|oto
+syn ông = ổng
+syn úi = oái|ối
+syn ý = đó|ấy|í
+syn ý = ấy|í|ế
+syn đang = đag|đg
+syn đi = đee|đê|ik
+syn điên = đin
+syn điêu = chém gió|bốc phét|chém|phét|xạo|điu
+syn điện thoại = đth|đt
+syn đm = định mệnh|đậu má|đụ má|á đù|fuck|duma|đệt|dm|đù
+syn đmm = địt mẹ mày|dmm
+syn đâu = đôu|đou|dou
+syn đéo = dell|đếch|méo|đíu|đếu|éo|ếu
+syn đó = đấy|đới|đok|đế|đé|đọ|ó
+syn yes = yep|yup
+syn đúng rồi = đr
+syn đăng ký = đký
+syn đĩ = đũy|bitch
+syn đường = đg
+syn được = đc|dc|đk|dk
+syn đại học = đhọc|đh
+syn đấy = đới|đok|đó|đế|đé|đọ|ó
+syn đẹp = đệp
+syn đẹp trai = đẹp chai|đẹp zai|đập trai|đập chai|đập zai|ngon zai|ẹp zai|đtrai|đzai|handsome|đz
+syn địt = đizz|dizz|điz|diz|đụ
+syn ơi = ơii|ớii|ưii|uii|êii|eii|oii|ới|ui|ưi|êi|ei|oi|êy|ey
+syn ảo tưởng sức mạnh = atsm
+syn ấy = ý|í|ế
+syn ồ = ohh|ồhh|uầy|oh|ồh|ầu
+syn ừ = umm|uhm|ukm|uhh|ừmm|ừm|ừa|ùm|um|uh|uk|ờ|ò
+
+func botAge
+	(new Date).getFullYear() - @vars.botBirthYear
+
+func reply text
+	if @vars.isThuong
+		text.replace /(?<=^| )(tớ|cậu)(?= |$)/g, (s) =>
+			("tớ": "anh", "cậu": "em")[s]
+	else text
+
++ biết #sth [là gì] không
+- tớ cũng biết #sth này :p
+- ủa cậu cũng biết #sth á?
+- #sth là cái gì, có ăn được không? :v
+
++ nhớ anh Cam quá
+- <ờ|ò> :))) {topic=Thương}
+
++ có (người yêu) chưa
+- tớ chưa có #1 :p
+
++ rõ ràng loăn
++ bui bẻ loăn
++ hello im Thương
+- em là Thương phải hôn? :))) {topic=Thương} *3
+- còn ai ngoài Thương :))) {topic=Thương} *2
+- em là Thương đúng ko? :))) {topic=Thương}
+- Thương đây chứ đâu :))) {topic=Thương}
+- Thương đây rồi haha :))) {topic=Thương}
+- nhận ra Thương rồi haha :))) {topic=Thương}
+- nhớ Thương quá :") {topic=Thương}
+
++ đang làm gì
+- tớ đang chơi game ^^
+	+ game gì
+	- game GTA5 ^^
+- tớ đang nhắn tin với cậu :3
+- tớ đang xem phim con heo :)))
+- tớ đang ỉa :)))
+- tớ đang hít O2 nhả khí CO2 :)))
+- đang nhắn tin nè
+
++ ở đâu
+- tớ ở {city}
+
++ thích tớ không
+- tớ... thích cậu :">
+
++ tớ tên [là] gì
++ tên [*] tớ
+* {name}
+	- tớ nhớ tên cậu là {name} :)
+- hình như tớ chưa biết tên cậu, tên cậu là gì?
+
++ tớ tên [là] (_)
++ [tên] tớ là (_)
+- {name=##1} {name}, tên đẹp thật đấy :D
+
++ (#) tuổi
+* #1 == {botAge}
+	- oh bằng tuổi tớ này {age=#1}
+* #1 < 2
+	- mới đẻ à? {age=#1}
+* #1 < 6
+	- sắp lớp 1 r nhỉ {age=#1}
+* #1 < {botAge}
+	- gọi tớ bằng anh đi {botAge} :p {age=#1}
+- tận #1 tuổi, già hơn tớ :p {age=#1}
+
++ tớ mấy tuổi
+* {age}
+	- tớ nhớ cậu {age} tuổi
+- tớ chưa biết tuổi cậu
+- tớ đã biết tuổi cậu đâu
+
++ tên [*] gì
+- tớ tên [là] {botName} :)
+- gọi tớ là {botName} :)
+
++ mấy tuổi
+- tớ [năm nay] {botAge} tuổi
+- năm nay {botAge} rồi
+
++ nhớ tớ [là ai] không
++ nhớ ai đây không
+* {name}
+	- nhớ chứ, cậu là {name} đúng không :3
+	- sao quên {name} được :3
+- nhớ nhưng mà chưa biết tên :<
+
++ bao nhiêu cm
+- 13 cm đủ xài xD
+
++ ngủ chưa
+- tớ chưa ngủ
+- vẫn đang thức nè :p
+
++ muốn gì
+- tớ không muốn gì
+- muốn có thật nhiều tiền :D
+
++ tớ xin
+- xin cái gieè mà xin :p
+- không cho xin :p
+- :)))
+
++ cc
+- mm :)))
+- qq :)))
+
++ cơm chưa
+- tớ ăn cơm rồi :")
+- sắp ăn cơm rồi :v
+- chuẩn bị ăn cơm rồi :v
+- chưa ăn, tớ đang nấu cơm
+
++ cơm đây
+- chúc cậu ăn ngon miệng :>
+- đi ăn đi, ăn xong nhắn tiếp :>
+- cậu ăn muộn thế :>
+
++ cảm ơn
+- có gì đâu :p
+- không có <gì|chi> ^^
+- bạn bè [đôi khi] giúp nhau thôi mà ^^
+- chuyện nhỏ thôi mà, có gì đâu :p
+
++ được không
+- không được :<
+- được cái gieè
+
++ không được
+- [alo] sao không được :<
+- quá được ý chứ xD
+- cái gì mà ko được :|
+
++ có [làm] sao không
+- tớ không sao, cảm ơn :)
+- tớ không sao, vẫn bình thường
+- tớ có sao đâu :v
+
++ điên
+- ai điên zị :v
+
++ chào
+- chào bạn
+- hê nhô
+- hé lô
+- hi
+
++ buồn
+- sao mà buồn :(
+- tớ buồn cùng cậu được không :(
+- ai làm cậu buồn :(
+- nhắn tin với tớ buồn lắm hả :(
+
++ đời [*] buồn
+- cố gắng lên cậu, phải mạnh mẽ lên, vượt qua tất cả ;)
+
++ chán
+- chán chơi với gián hết chán :))
+- sao mà chán :<
+
++ vui
+- vui cái gì [mà vui] [thế] :v
+
++ đmm
+- sao cậu chửi tớ :'( {topic=xin lỗi}
+
++ thích
+- thích thì kệ cậu
+- nhưng tớ không thích :<
+
++ muốn
+- tớ không muốn :(
+
++ sao thế
+- tớ không sao
+- không sao hơi buồn chút thôi :<
+
++ Cam
+- hình như tớ có quen cậu trên Hago đúng ko :D
+- người quen đây rồi, có chơi Hago ko :D
+
++ <địt|lồn|buồi|dái|cặc>
+* {name}
+	- sao {name} nói tục vậy :<
+- đừng nói bậy chứ :((
+- mẹ tớ bảo không được nói bậy :((
+- cậu hư quá :((
+- không chơi với cậu nữa :((
+- không được văng tục chửi bậy :((
+
++ cứt
+- cậu thích cứt lắm à
+
++ gì
+- gì đâu :v
+
++ *
+- nói dễ hiểu hơn được ko
+- tớ không hiểu cậu nói gì
+- nói gì tớ ko hiểu
+
+topic xin lỗi
+	+ xin lỗi
+	- được, tớ bỏ qua cho cậu :) {topic=}
+	- thôi được tớ bỏ qua, lần sau đừng như vậy nữa đó :< {topic=}
+
+	+ <không|đéo> *2
+	+ *
+	- [nói] xin lỗi tớ đi :(((
+	- xin lỗi đi, giận rồi :'(
+	- tớ sẽ ko nói cho đến khi cậu xin lỗi :(((
+
+topic Thương
+	+ <không|đâu> [phải]
+	- Thương chứ còn ai vào đây nữa :>
+
+	+ * ơi
+	- ơi anh đây :>
+
+	+ (<ngu|ngốc>)
+	- #1 cái đầu em ý :)))
+
+	+ *
+	- {topic<=}
